@@ -17,8 +17,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom --testMatch '**/src/**/*.test.js'",
-    "coverage:dev": "react-scripts test --coverage --watchAll '**/src/**/*.test.js'",
-    "coverage:prod": "react-scripts test --coverage **/src/**/*.test.js'",
+    "coverage:dev": "react-scripts test --coverage --watchAll --testMatch  '**/src/**/*.test.js'",
+    "coverage:prod": "react-scripts test --coverage --testMatch  **/src/**/*.test.js'",
     "eject": "react-scripts eject"
   },
   "jest": {
